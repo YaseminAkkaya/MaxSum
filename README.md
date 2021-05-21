@@ -9,6 +9,9 @@ You will have an orthogonal triangle input from a file and you need to find the 
 5. You have to treat your input as pyramid.
 
 ## Solution
+> Max Sum for **Test 1** : 24 
+> 
+> Max Sum for **Test 2** : 8186 
 1. Take the input file and convert it to a 2D array of ints
 2. Traverse array for prime numbers and set them to 0
 3. Calculate the maximum sum possible by comparing each value in the array with the value directly below or below and to the right of it, then adding the greater value of those values to it. If either of those two values are prime (prime numbers are set equal to 0), the value should be eliminated (set to 0) as it could not be walked over.
